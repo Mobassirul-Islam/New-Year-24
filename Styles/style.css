@@ -1,0 +1,558 @@
+/* Google font import link */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+
+/* Universal styles to reset default styles start */
+* {
+    margin: 0;
+    padding: 0;
+    /* Font-weight= 400px */
+    font-family: 'Merriweather', 'Inter', 'serif', 'sans-serif';
+}
+
+/* Universal styles to reset default styles end */
+
+/* Header section styles start */
+header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-bg-image {
+    background-image: url("../Styles/images/Banner\ Image.png"), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    border-radius: 16px;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.header-sub-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    padding: 120px 0px 16px 0px;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+    padding: 0px 0px 180px 0px;
+}
+
+/* Header section styles end */
+
+/* Main section styles start */
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Discount part styles start */
+.discount-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 120px 0px 50px 0px;
+}
+
+.discount-description {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 16px 0px;
+}
+
+.discount-sub-title {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 0px 50px 0px;
+}
+
+.discount-image {
+    margin: 0px 0px 120px 0px;
+}
+
+/* Discount part styles end */
+
+/* Midnight party part styles start */
+.midnight-party {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-image: url("../Styles/images/Vectorrr.png"), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    border-radius: 16px;
+    margin: 0px 0px 120px 0px;
+}
+
+.midnight-party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    margin: 0px 0px 24px 0px;
+}
+
+.midnight-party-description {
+    color: #ffffffcc;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 0px 0px 40px 0px;
+}
+
+.join-now-button {
+    color: #FFF;
+    background-color: #FF0000;
+    border: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.join-now-button:hover {
+    color: #FF0000;
+    background-color: khaki;
+    cursor: pointer;
+}
+
+.midnight-party-image {
+    padding: 60px 0px 60px 0px;
+}
+
+/* Midnight party part styles end */
+
+/* Address part styles start */
+.address-part {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 60%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+    border-radius: 16px;
+    padding: 100px 0px;
+    margin: 0px 0px 120px 0px;
+}
+
+.address-color-1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.address-color-2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+/* Div style for aligning address button center start */
+#address-btn {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+/* Div style for aligning address button center end */
+
+#join-now-address-btn{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#join-now-address-btn:hover {
+    color: #070211;
+    background-color: #0744eec2;
+    cursor: pointer;
+}
+
+/* Address part styles end */
+
+/* Best offer part styles start */
+.best-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    margin: 0px 0px 120px 0px;
+}
+
+.best-offer-sub-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 16px 0px;
+}
+
+.best-offer-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0px 0px 22px 0px;
+}
+
+.best-offer-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    /* 160% */
+}
+
+/* Best offer img class style for the red ellipsis around the image */
+.best-offer-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 25px;
+}
+
+.best-offer-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 70px 0px 16px 0px;
+}
+
+.best-offer-year-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    /* 160% */
+    margin: 0px 0px 40px 0px;
+}
+
+/* Best offer part styles end */
+
+/* Holiday sale part styles start */
+.holiday-sale-sub-title {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 16px 0px;
+}
+
+.holiday-sale-title-1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px 0px 30px 0px;
+}
+
+.holiday-sale-title-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale-description {
+    color: #07021199;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    margin: 0px 0px 60px 0px;
+}
+
+/* Holiday sale image part styles start */
+.holiday-images {
+    position: relative;
+}
+
+.holiday-img-1 {
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
+
+.holiday-img-2 {
+    position: relative;
+    left: 770px;
+    top: 4px;
+}
+
+.holiday-img-3 {
+    position: absolute;
+    right: 280px;
+    bottom: 260px;
+}
+
+.holiday-img-4 {
+    max-width: 1200px;
+}
+
+/* Holiday sale image part styles end */
+
+/* Holiday sale part styles end */
+
+/* Best-portfolio part styles start */
+.best-portfolio-sub-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 120px 0px 16px 0px;
+}
+
+.best-portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0px 0px 22px 0px;
+}
+
+.best-portfolio-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    /* 160% */
+    margin: 0px 0px 50px 0px;
+}
+
+/* Best-portfolio images part styles start  */
+.best-portfolio-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: 0px 0px 120px 0px;
+}
+
+.best-portfolio-img {
+    border-radius: 15px;
+    max-width: 100%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.best-portfolio-images .best-portfolio-img:hover {
+    transform: scale(.9);
+}
+
+/* Best-portfolio images part styles end  */
+
+/* Best-portfolio part styles end */
+
+/* Subscribe part styles start */
+.subscribe-part {
+    border-radius: 16px;
+    background: #ff00000d;
+    margin: 0px 0px 120px 0px;
+}
+
+.subscribe-image {
+    text-align: center;
+    padding: 80px 0px 40px 0px;
+}
+
+.subscribe-part-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0px 0px 20px 0px;
+}
+
+.subscribe-part-description {
+    color: #07021199;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+    /* 160% */
+    padding: 0px 30px 50px 30px;
+}
+
+.subscribe-box {
+    text-align: center;
+    padding: 0px 0px 80px 0px;
+}
+
+.subscribe-part-input-box {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+    color: #0702114d;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    width: 400px;
+    height: 70px;
+    outline: none;
+}
+
+.subscribe-btn {
+    color: #FFF;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 200px;
+    height: 70px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Subscribe part styles end */
+
+/* Main section styles end */
+
+/* Footer section styles start */
+footer {
+    background: #070211;
+    padding: 120px 0px;
+}
+
+/* Footer contents styles start */
+.footer-contents {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Footer contents styles end */
+
+/* Footer contacts part styles start */
+.footer-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.footer-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.footer-contact-number,
+.footer-contact-website {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.footer-contact-1,
+.footer-contact-2 {
+    display: flex;
+    gap: 15px;
+}
+
+/* Footer contacts part styles end */
+
+/* Footers upper & bottom horizontal line styles start */
+.upper-horizontal-line,
+.bottom-horizontal-line {
+    border: 1px solid #ffffff26;
+    margin: 0px 0px 50px 0px;
+}
+
+/* Footers upper & bottom horizontal line styles end */
+
+/* Footer social media part styles start */
+.social-media-icons-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0px 0px 50px 0px;
+}
+
+/* Footer social media part styles end */
+
+/* Footer copyright part styles start */
+.copyright-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px 80px 0px;
+}
+
+.copyright-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsubscribe-btn {
+    color: #FFF;
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.unsubscribe-btn:hover {
+    color: #F00;
+}
+
+/* Footer copyright part styles end */
+
+/* Footer section styles end */
