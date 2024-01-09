@@ -373,10 +373,14 @@ main {
     border-radius: 15px;
     max-width: 100%;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 .best-portfolio-images .best-portfolio-img:hover {
     transform: scale(.9);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 }
 
 /* Best-portfolio images part styles end  */
